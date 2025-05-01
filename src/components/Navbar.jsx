@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a className="block text-black" href="/">
           <span className="sr-only">Home</span>
-          <h1 className="text-5xl font-extrabold">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
             {" "}
             <span className="text-blue-700">Di</span>cto.
           </h1>
@@ -22,7 +22,7 @@ const Navbar = () => {
                 href="https://github.com/sarthak1656/Dicto"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700"
+                className="block rounded-md bg-blue-600 px-4 py-2 text-xs sm:text-sm lg:text-base font-medium text-white transition hover:bg-blue-700"
               >
                 Learn More
               </a>
