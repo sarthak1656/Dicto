@@ -1,12 +1,35 @@
-# React + Vite
+# 🗣️ Speech to Text Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web application that converts speech to text in real-time using the Web Speech API. It supports multiple languages, displays waveform animations while listening, and provides options to clear or download the transcript. This app is secured from direct route access using React Router navigation state—no authentication required.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎙️ Real-time speech recognition
+- 🌍 Multiple language support (English, Hindi, French, etc.)
+- 📊 Waveform animation while listening
+- 🧼 Clear transcript
+- 📥 Download transcript as a `.txt` file
+- 🔒 Route protection without authentication
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 **Live Site**: [https://dicto-sage.vercel.app/](https://dicto-sage.vercel.app/)
+
+## 🔧 Technologies Used
+
+- **React** `v19`  
+- **React Router DOM** `v7.5.3`  
+- **Heroicons** for modern icons  
+- **Tailwind CSS** for styling  
+- **Web Speech API** for speech recognition  
+- **Canvas API** for waveform visualization
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/sarthak1656/Dicto.git
+cd Dicto
+npm install
+npm run dev
